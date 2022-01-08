@@ -20,6 +20,10 @@
                 <ul class="navbar-nav ml-auto">
                     
                     <li class="nav-item">
+                        <a href="/" class="nav-link{%if activePage == 'home' %} active{% endif %}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="profile.html" class="nav-link{%if activePage == 'profile' %} active{% endif %}">Profile</a>
                     </li>
 
@@ -36,5 +40,7 @@
         </nav>
     </div>
 </header>
+
+
 
 {% endmacro %}
