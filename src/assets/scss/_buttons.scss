@@ -18,6 +18,12 @@
 
 }
 
+a.btn.btn-primary.text-white {
+    &:hover {
+        color: #fff !important;
+    }
+}
+
 a.btn.btn-outline-white {
     color: #fff;
     &:hover {
